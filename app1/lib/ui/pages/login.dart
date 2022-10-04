@@ -1,4 +1,5 @@
 import 'package:app1/dominio/modelos/usuario.dart';
+import 'package:app1/ui/pages/empleado/listarEmpleado.dart';
 import 'package:app1/ui/pages/registro.dart';
 import 'package:app1/ui/pages/ususario/listarUsuario.dart';
 import 'package:flutter/material.dart';
@@ -51,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
                     context,
                     MaterialPageRoute(
                       builder: (context) {
-                        return listarUsuario();
+                        return const ListarEmpleado();
                       },
                     ),
                   );
